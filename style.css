@@ -19,7 +19,7 @@ h1 {
   margin: 0;
 }
 
-/* Title styling for "Socials" */
+/* Title styling for "Roblox" */
 .roblox-title {
   font-size: 36px;
   font-weight: bold;
@@ -52,9 +52,10 @@ h1 {
   margin-top: 30px;
 }
 
-/* General button styling */
+/* Button styling */
 .btn {
   display: inline-block;
+  background-color: #333; /* Dark button background */
   color: white;
   padding: 20px 40px;
   margin: 15px;
@@ -68,41 +69,7 @@ h1 {
 
 /* Button hover effect */
 .btn:hover {
-  opacity: 0.8;
-}
-
-/* Customizable button colors */
-.roblox-profile {
-  background-color: #ff0000; /* Roblox red */
-}
-
-.roblox-profile:hover {
-  background-color: #e60000; /* Slightly darker red on hover */
-}
-
-.roblox-group {
-  background-color: #000000; /* Black */
-}
-
-.roblox-group:hover {
-  background-color: #444444; /* Slightly lighter black on hover */
-}
-
-.roblox-game {
-  background-color: #ffffff; /* White */
-  color: #000000; /* Black text for better contrast */
-}
-
-.roblox-game:hover {
-  background-color: #cccccc; /* Slightly lighter gray on hover */
-}
-
-.instagram {
-  background-color: #e4405f; /* Instagram pink */
-}
-
-.instagram:hover {
-  background-color: #d6334b; /* Darker Instagram color on hover */
+  background-color: #555; /* Lighter shade on hover */
 }
 
 /* Footer styles */
@@ -111,4 +78,3 @@ footer {
   color: white;
   padding: 10px;
 }
-
