@@ -8,6 +8,30 @@ body {
   text-align: center;
 }
 
+/* Main container: Flexbox to align images and content */
+.main-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Vertically align content in the middle */
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Left and Right Image Containers */
+.left-image, .right-image {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-image img, .right-image img {
+  max-width: 100%;  /* Make sure the images fit within their containers */
+  height: auto;
+}
+
 /* Header styles */
 header {
   background-color: #000; /* Black background */
@@ -42,6 +66,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  flex: 2; /* This allows the central container to take up more space */
 }
 
 /* Button container styling */
