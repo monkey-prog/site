@@ -19,7 +19,32 @@ h1 {
   margin: 0;
 }
 
-/* Button container */
+/* Title styling for "Roblox" */
+.roblox-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #ff0000, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* GUI container styling */
+.gui-container {
+  background-color: #000; /* Black background */
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button container styling */
 .button-container {
   display: flex;
   flex-direction: column;
@@ -27,17 +52,19 @@ h1 {
   margin-top: 30px;
 }
 
-/* Button styles */
+/* Button styling */
 .btn {
   display: inline-block;
   background-color: #333; /* Dark button background */
   color: white;
-  padding: 15px 30px;
-  margin: 10px;
+  padding: 20px 40px;
+  margin: 15px;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 25px; /* Rounded corners */
   transition: background-color 0.3s ease;
+  width: 80%; /* Button width for uniformity */
+  max-width: 350px;
 }
 
 /* Button hover effect */
