@@ -80,7 +80,6 @@ h1 {
 /* Button styling */
 .btn {
   display: inline-block;
-  background-color: #333; /* Dark button background */
   color: white;
   padding: 20px 40px;
   margin: 15px;
@@ -94,7 +93,46 @@ h1 {
 
 /* Button hover effect */
 .btn:hover {
-  background-color: #555; /* Lighter shade on hover */
+  opacity: 0.9; /* Slightly fade the button on hover */
+}
+
+/* Button color options */
+
+/* Black and White Gradient */
+.black-white {
+  background: linear-gradient(to right, #000, #fff); /* Black to White Gradient */
+  color: #000; /* Text color (Black) */
+}
+
+.black-white:hover {
+  background: linear-gradient(to right, #fff, #000); /* Reversed gradient on hover */
+}
+
+/* Red and Blue */
+.red-blue {
+  background: linear-gradient(to right, #ff0000, #0000ff); /* Red to Blue Gradient */
+}
+
+.red-blue:hover {
+  background: linear-gradient(to right, #0000ff, #ff0000); /* Reversed gradient on hover */
+}
+
+/* Green and Yellow */
+.green-yellow {
+  background: linear-gradient(to right, #008000, #FFFF00); /* Green to Yellow Gradient */
+}
+
+.green-yellow:hover {
+  background: linear-gradient(to right, #FFFF00, #008000); /* Reversed gradient on hover */
+}
+
+/* Blue and White */
+.blue-white {
+  background: linear-gradient(to right, #0000ff, #ffffff); /* Blue to White Gradient */
+}
+
+.blue-white:hover {
+  background: linear-gradient(to right, #ffffff, #0000ff); /* Reversed gradient on hover */
 }
 
 /* Footer styles */
